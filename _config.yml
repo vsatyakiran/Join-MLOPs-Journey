@@ -1,0 +1,49 @@
+title: Join-MlOps-Journey
+author:
+  name: vsatyakiran
+  email: vantakulasatyakiran@gmail.com
+
+# The `>` after `description:` means to ignore line-breaks until next key.
+# If you want to omit the line-break after the end of text, use `>-` instead.
+description: >
+  Join the MLOps Journey to learn about the latest trends in MLOps, DevOps, DataOps, and AI/ML. 
+  We will discuss the best practices, tools, and technologies that are shaping the future of AI/ML.
+  We will also discuss the challenges and solutions in deploying AI/ML models in production.
+
+# Build settings
+
+# If you clone the Minima repo and build locally, use this setting.
+theme: minima
+
+
+plugins:
+  - jekyll-feed
+  - jekyll-seo-tag
+
+# Minima specific settings, which are only available from Minima 3.0 onward.
+minima:
+  # Minima skin selection.
+  # Available skins are:
+  # classic	           Default, light color scheme.
+  # dark	             Dark variant of the classic skin.
+  # auto	             Adaptive skin based on the default classic and dark skins.
+  # solarized-light	   Light variant of solarized color scheme.
+  # solarized-dark	   Dark variant of solarized color scheme.
+  # solarized	         Adaptive skin for solarized color scheme skins.
+  skin: classic
+  
+  # Minima date format.
+  # The default value is "%b %d, %Y" (e.g. Nov 14, 2023) 
+  # Refer to https://shopify.github.io/liquid/filters/date/ if you want to customize this.
+  #date_format: "%b-%d-%Y"
+
+  # Generate social links in footer.
+  #social_links:
+
+   - { platform: github,         user_url: "https://github.com/vsatyakiran" }
+   - { platform: linkedin,       user_url: "https://linkedin.com/in/vantakula-satya-kiran-165536251" }
+  #  - { platform: telegram,       user_url: "https://t.me/jekyll" }
+  #  - { platform: twitter,        user_url: "https://twitter.com/jekyllrb" }
+  #  - { platform: x,              user_url: "https://x.com/jekyllrb" }
+  #  - { platform: youtube,        user_url: "https://www.youtube.com/jekyll" }
+
