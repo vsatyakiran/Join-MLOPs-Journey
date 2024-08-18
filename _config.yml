@@ -2,43 +2,29 @@ title: Join-MlOps-Journey
 author:
   name: vsatyakiran
   email: vantakulasatyakiran@gmail.com
-
-# The `>` after `description:` means to ignore line-breaks until next key.
-# If you want to omit the line-break after the end of text, use `>-` instead.
-description: >
-  Join the MLOps Journey to learn about the latest trends in MLOps, DevOps, DataOps, and AI/ML. 
+description: Join the MLOps Journey to learn about the latest trends in MLOps, DevOps, DataOps, and AI/ML. 
   We will discuss the best practices, tools, and technologies that are shaping the future of AI/ML.
   We will also discuss the challenges and solutions in deploying AI/ML models in production.
-
-# Build settings
-
-# If you clone the Minima repo and build locally, use this setting.
-theme: minima
-
-
+theme: jekyll-theme-minimal
+markdown: kramdown
+kramdown:
+  input: GFM
+  hard_wrap: false
 plugins:
-  - jekyll-feed
-  - jekyll-seo-tag
+  - jekyll-relative-links
+relative_links:
+  enabled: true
+  collections: true
+include:
+  - CONTRIBUTING.md
+  - README.md
+  - LICENSE.md
+  - COPYING.md
+  - CODE_OF_CONDUCT.md
+  - CONTRIBUTING.md
+  - ISSUE_TEMPLATE.md
+  - PULL_REQUEST_TEMPLATE.md
 
-# Minima specific settings, which are only available from Minima 3.0 onward.
-minima:
-  # Minima skin selection.
-  # Available skins are:
-  # classic	           Default, light color scheme.
-  # dark	             Dark variant of the classic skin.
-  # auto	             Adaptive skin based on the default classic and dark skins.
-  # solarized-light	   Light variant of solarized color scheme.
-  # solarized-dark	   Dark variant of solarized color scheme.
-  # solarized	         Adaptive skin for solarized color scheme skins.
-  skin: classic
-  
-  # Minima date format.
-  # The default value is "%b %d, %Y" (e.g. Nov 14, 2023) 
-  # Refer to https://shopify.github.io/liquid/filters/date/ if you want to customize this.
-  #date_format: "%b-%d-%Y"
-
-  # Generate social links in footer.
-  #social_links:
 
    - { platform: github,         user_url: "https://github.com/vsatyakiran" }
    - { platform: linkedin,       user_url: "https://linkedin.com/in/vantakula-satya-kiran-165536251" }
