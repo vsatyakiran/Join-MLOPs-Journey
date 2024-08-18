@@ -6,7 +6,7 @@ description: >
   Join the MLOps Journey to learn about the latest trends in MLOps, DevOps, DataOps, and AI/ML. 
   We will discuss the best practices, tools, and technologies that are shaping the future of AI/ML.
   We will also discuss the challenges and solutions in deploying AI/ML models in production.
-theme: jekyll-theme-minimal
+theme: jekyll-theme-cayman
 markdown: kramdown
 kramdown:
   input: GFM
